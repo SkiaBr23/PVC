@@ -18,7 +18,7 @@ Ordem de execução:
 a.Primeira definição dos 31 pontos.
 b.Segunda definição dos 31 pontos.
 c.Terceira definição dos 31 pontos. (todos os 93 pontos são salvo no arquivo buffer.txt).
-d.Os cálculos das médias e desvios padrões são feitos: As 3 definições do ponto 1 estão localizadas nas linhas 1, 32 e 63 do arquivo buffer.txt.
+d.Os cálculos das médias e desvios padrões são feitos: Por exemplo, os3 valores do ponto 1 estão localizadas nas linhas 1, 32 e 63 do arquivo buffer.txt.
 e.Os valores calculados são armazenados no arquivo de saída (definido na linha 14 do main.cpp).
 
 Os pontos serão marcados graficamente na mesma imagem de entrada.
