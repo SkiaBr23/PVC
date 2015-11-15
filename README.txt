@@ -27,9 +27,9 @@ Arquivo TXT de saída:
 
 No arquivo de saída a primeira coluna corresponde à média da coordenada x, a segunda coluna à média da coordenada y, a terceira coluna ao desvio padrão da coordenada x e a quarta coluna ao desvio padrão da coordenada y.
 
-Ainda precisa ser definido:
+Ainda precisa ser definido (Problemas):
 
 a. Qual o valor máximo aceitável para o desvio padrão de cada imagem? Essa etapa pode ser feita manualmente: analisa-se os dois desvios padrões (x e y) do arquivo de saída, caso esteja dentro da faixa aceitável finaliza-se o processo para aquela imagem, caso não esteja, repete-se o procedimento.
-b. Algumas imagens são grandes e não podem ser visualizadas por completo para marcar os pontos: pode ser necessário redimensionar a mesma ou alterar a visualização (linha 169 da main.cpp cria a janela e linha 175 mostra a imagem).
+b. Algumas imagens são grandes e não podem ser visualizadas por completo para marcar os pontos: pode ser necessário redimensionar a mesma ou alterar a visualização (linha 161 da main.cpp cria a janela e linha 167 mostra a imagem).
 
 
