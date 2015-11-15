@@ -13,8 +13,6 @@ int npoints =0;
 string imgname = "frontalface/3.jpg";
 const char*outputtxt = "Points01.txt";
 
-
-
 void DrawPoint (int x, int y)
 {
 	Point center(x,y);
@@ -30,10 +28,6 @@ void DrawPoint (int x, int y)
   	compression_params.push_back(CV_IMWRITE_JPEG_QUALITY);
   	compression_params.push_back(100);
   	imwrite(imgname,src,compression_params);  
-
-
-
-
 }
 
 std::fstream& GotoLine(std::fstream& file, unsigned int num){
@@ -133,8 +127,6 @@ void WriteinFile(Point pt)
 	}
 
 	//cout <<"Ponto salvo no arquivo: "<< (*pt) <<endl;
-
-
 }
 
 void CallBackFunc(int e, int x, int y, int d, void *ptr )
